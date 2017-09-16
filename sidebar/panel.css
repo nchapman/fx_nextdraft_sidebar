@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background: transparent url(../icons/nextdraft_gray.svg) no-repeat fixed center;
+  background-size: 75px;
+}
+
+iframe {
+  border: 0;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+  width: 100%;
+}
